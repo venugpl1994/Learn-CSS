@@ -1,0 +1,152 @@
+<html>
+	<head>
+		<style>
+			body{
+					background:skyblue;
+					font-family:verdana;
+				}
+			#mainblock{
+				background:white;
+				min-height:600px;
+				margin:auto;
+				width:90%;
+				}
+			#topblock{
+					height:70px;
+				}
+			#menublock{
+			       background:orange;
+					min-height:30px;
+					padding:1px;
+				}
+			#middleblock{
+				min-height:400px;
+				}
+			#footerblock{
+					background:black;
+					min-height:90px;
+					color:white;
+					text-align:center;
+					font-style:italic;
+				}
+				ul{
+						list-style-type:none;
+					}
+				/*css by parent and child */
+				ul li{
+						display:inline;
+						margin:25px;
+					}
+				#menublock ul li a{
+					font size:14px;
+					font-weight:bold;
+					color:green;
+					text-decoration:none;
+					font-family:verdana;
+					}
+				#menublock ul li a:hover{
+					color:blue;}
+				fieldset{
+					width:80%;
+					padding:20px;
+					margin:auto;
+					border:4px solid blue;
+					border-radius:10px;
+					margin-bottom:20px;}
+				legend{
+					color:red;
+					font-size:20px;
+					font-style:italic;
+					}
+				#homeimage{
+					height:170px;
+					width:30%;
+					margin:1%;
+					border-radius:10px;
+					opacity:0.5;
+					}
+				#homeimage:hover{
+					border-radius:20px;
+					opacity:1;
+					}
+				#mycontact{
+					background:skyblue;
+					padding:30px;
+					border-radius:5px 50px 5px 50px;
+					margin:auto;
+					}
+				th{
+					font-size:13px;
+					text-align:left;
+					}
+				#inputbox{
+					width:250px;
+					height:25px;
+					}
+				#bigbox{
+						width:250px;
+					}
+				#inputbox:focus{
+					border:1px solid red;
+					}
+				#bigbox:focus{
+					border:1px solid red;
+					}
+				#success{
+					background:green;
+					color:white;
+					font-weight:bold;
+					border:2px solid green;
+					border-radius:20px;
+					padding:5px;
+					margin:8px;
+					}
+				#danger{
+					background:red;
+					color:white;
+					font-weight:bold;
+					border:2px solid red;
+					border-radius:20px;
+					padding:5px;
+					margin:8px;
+					}	
+		</style>
+	</head>
+		<body>
+			<div id="mainblock">
+				<div id="topblock"></div>
+				<div id="menublock">
+					<ul>
+						<li><a href="home.html">Home</a><li>
+						<li><a href="about.html">About us</a></li>
+						<li><a href="contact.html">Contact Us</a></li>
+						<li><a href="login.html">Login</a></li>
+						<li><a href="Register.html">Register</a></li>
+					</ul>
+				</div>
+				<div id="middleblock">
+					<fieldset>
+						<legend>Login Us</legend>
+						<table id="mycontact">
+							<tr>
+								<th>e-mail id</th>
+								<td><input type="text" id="inputbox"></td>
+							</tr>
+							<tr>
+								<th>password</th>
+								<td><input type="text" id="inputbox"></td>
+							</tr>
+							<tr>
+								<td colspan="2" align="center">
+								<button id="success">send now</button>
+								<button id="danger">reset form</button>
+								</td>
+							</tr>
+						</table>
+					</fieldset></div>
+				<div id="footerblock">
+					<h3 align="centre">This is my footer block.....</h3>
+				</div>
+			</div>
+		</body>
+</html>

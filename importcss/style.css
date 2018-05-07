@@ -1,0 +1,136 @@
+body{
+	
+	margin:0px;
+
+}
+#topbar{
+	height:30px;
+	padding:5px;
+	background:green;
+	color:white;
+}
+#topleft{
+	float:left;
+	margin-left:5px;
+}
+#topright{
+	float:right;
+	margin-right:5px;
+}
+#logoblock{
+	height:70px;
+	margin-left:5%;
+}
+#logoleft{
+	float:left;
+}
+#logoright{
+	float:right;
+	margin-right:5%;
+	margin-top:25px;
+}
+#logo{
+	width:70px;
+	height:50px;
+	margin:10px;
+	border-radius:5px;
+}
+.danger{
+	background:red;
+	color:white;
+	padding:2px;
+	font-size:16px;
+	font-weight:bold;
+	border-radius:10px;
+	border:5px solid red;
+}
+#navigation{
+	padding:10px;
+	background:#f8f8f8;
+	min-height:30px;
+	text-align:center;
+	list-style-type:none;
+}
+#navigation li{
+	display:inline;
+	margin:25px;	
+}
+#navigation li a{
+	text-decoration:none;
+	font-size:17px;
+	color:black;
+	font-weight:bold;
+}						/*using hover for home,login,sign up */
+#navigation li a:hover{
+	color:blue;
+}
+#contentblock{
+	min-height:450px;
+	width:90%;
+	margin-left:5%;
+	margin-right:5%;
+}
+#footerblock{
+	min-height:200px;
+	background:grey;
+	text-align:center;
+	color:white;
+	margin-top:15px;
+}
+#banner{
+	float:left;
+	width:70%;
+	height:200px;
+}
+#bannerimage{
+		width:99%;
+		height:99%;
+}
+#enquiry{
+	float:left;
+	width:30%;
+	background:skyblue;
+	border-radius:10px;	
+	height:200px;
+}
+.clearblock{
+	clear:both;
+}
+#aboutus{
+	padding:20px;
+}
+.imagebox{
+	width:21%;
+	height:150px;
+	margin:2%;
+	background:orange;
+	border-radius:10px;
+	float:left;
+}
+.myimage{
+	width:92%;
+	margin:4%;
+	height:135px;
+	
+}
+.myimage:hover{
+	border-radius:10px;
+	height:160px;
+	width:98%;
+	transition:5s all 0s;
+	transform:rotate(360deg);
+	opacity:0.4;
+}
+.inputbox{
+	width:100%;
+}
+.biginputbox{
+	width:100%;
+}
+#mycontact{
+	width:40%;
+	margin:auto;
+	padding:20px;
+	background:skyblue;
+	border-radius:10px;
+}

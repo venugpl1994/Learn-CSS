@@ -1,0 +1,11 @@
+Dis of inline css:
+1. it is one to one (write once and use once)
+2.because one to one,code redundancy will happen.
+3.if code coplicated will happen then file size will increase.
+	then to store heavy weight file we need more hard disc space.
+4. if file weight is more then page loading will very slow.
+5.if page is slow the customer will wait for 5seconds after that close the page and to
+to other website.
+6.miss use of internal data.
+----------------------------------
+	

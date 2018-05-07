@@ -1,0 +1,11 @@
+Advantage:
+1.Its one to many ("write once and use many times"),but in current page only
+-------------------------------------
+2.css by tag name
+3.css by id
+3.css by class
+4.css by tag group
+5.css by parent tag and child tag.
+----------------------------------------
+a.if in one page one type of html is tag only one time then follow css by tag name.
+b.if in one page one type of html tag used many times but structure/UI is diffrent then we should follow css by id.
